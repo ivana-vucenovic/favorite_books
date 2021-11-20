@@ -78,9 +78,5 @@ class Book(models.Model):
     favorited_by = models.ManyToManyField(User, related_name="favorited_books")
     created_at = models.DateField(auto_now_add=True)
     updated_at = models.DateField(auto_now=True)
-    likes = models.ManyToManyField(User, related_name="likesed_books")
-
-    def total_likes(self):
-        return self.likes.count()
 
     objects = BookManager()
