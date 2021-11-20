@@ -89,9 +89,6 @@ def show_one(request, book_id):
     }
     return render(request, "books/show_one.html", context)
 
-def like_book(request, pk):
-    
-
 def update(request, book_id):
     book = Book.objects.get(id=book_id)
     book.description = request.POST['description']
