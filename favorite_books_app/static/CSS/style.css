@@ -1,0 +1,32 @@
+*{
+    margin: 0 10px;
+    padding: 5px 0;
+}
+input{
+    background-color: lightcyan;
+}
+textarea{
+    background-color: lightcyan;
+}
+button{
+    background-color: skyblue;
+
+    padding: 5px;
+}
+#main {
+    display: flex;
+    justify-content: center;
+    border: 2px solid skyblue;
+}
+header{
+    background-color: skyblue;
+
+}
+#reg{
+    padding: 0 5px;
+}
+/* #books{
+    display:block;
+    width:600px;
+    border: 2px solid skyblue; 
+} */
